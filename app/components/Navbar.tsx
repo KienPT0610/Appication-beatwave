@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import './Navbar.css'
 
-import { getConfig } from '../wagmi'
+import { getConfig } from './utils/wagmi'
 import { cookieToInitialState } from 'wagmi'
 import { Providers } from './providers/Provider'
 import { Account } from './providers/Account'
@@ -27,8 +27,8 @@ export const Navbar = () => {
                 </li>
             </ul>
             <Providers initialState={initialState}>
-                <Account />    
-            </Providers> 
+                <Account />
+            </Providers>
         </nav>
     )
 }
