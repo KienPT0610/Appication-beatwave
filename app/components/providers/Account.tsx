@@ -20,7 +20,7 @@ export const Account = () => {
     <div className='container'>
       <div className={connect ? 'connect' : 'disconnect'} >
         <div className='account'>address: {account.address}</div>
-        <div className='balance'>balance:</div>
+        <div className='balance'>balance: 1000 token BW</div>
       </div>
       <div className='btn'>
         <ButtonConnectWallet />
