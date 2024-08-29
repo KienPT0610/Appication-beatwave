@@ -1,0 +1,30 @@
+
+
+.button {
+    /* color: red; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.5rem; */
+    margin: 0 0.5rem;
+}
+
+.button button {
+    background-color: #618bed;
+    border: 1px solid #81d7ff;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    color: black;
+    background-color: #d3d1ec;
+}

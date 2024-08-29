@@ -1,0 +1,24 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .connect {
+    /* display: none; */
+    background-color: #eee;
+    width: auto;
+    margin: 0 10px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: lowercase;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.container .disconnect {
+    display: none;
+}
+
+
