@@ -14,10 +14,10 @@ export const Navbar = () => {
     )
     return (
         <nav>
-            <Link to="/" className="title" >Beatwave</Link>
+            <Link to="/home" className="title" >Beatwave</Link>
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/home">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about">About</NavLink>
