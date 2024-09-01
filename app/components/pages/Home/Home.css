@@ -73,3 +73,7 @@
   background-color: #bcc3d6;
   border-radius: 5px;
 }
+
+.home .list-beat {
+  box-sizing: border-box;
+}

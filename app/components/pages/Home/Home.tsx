@@ -1,8 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
-import background from '../../../public/background.png'
 import './Home.css'
 import { NavLink } from 'react-router-dom'
+import { ListBeatSaling } from './ListBeatSaling/ListBeatSaling'
 
 export const Home = () => {
   return (
@@ -31,11 +30,8 @@ export const Home = () => {
           </ul>
         </div>
       </div>
-      <div>
-        <h2>Recent</h2>
-      </div>
-      <div>
-        list beat
+      <div className='list-beat'>
+        <ListBeatSaling />
       </div>
     </div>
   )
