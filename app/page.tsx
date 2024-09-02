@@ -3,9 +3,9 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Navbar } from "./components/layout/Navbar";
-import { Home } from "./components/pages/Home/Home";
-import { About } from "./components/pages/About/About";
-import { Upload } from "./components/pages/Upload/Upload";
+import { Home } from "./pages/Home/Home";
+import { About } from "./pages/About/About";
+import { Upload } from "./pages/Upload/Upload";
 import { Header } from "./components/layout/Header";
 import "./Page.css";
 
