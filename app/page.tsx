@@ -13,8 +13,10 @@ import { Providers } from "./components/providers/Provider";
 import { getConfig } from './components/utils/wagmi'
 import { cookieToInitialState } from 'wagmi'
 
+type State = /*unresolved*/ any
+
 export default function App() {
-  const [initialState, setInitialState] = useState<null | State>(null);
+  const [initialState, setInitialState] = useState<State | null >(null);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
