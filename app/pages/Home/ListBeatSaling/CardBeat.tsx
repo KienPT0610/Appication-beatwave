@@ -1,12 +1,12 @@
 //multiplayer
 
 import React from 'react';
-import { Beat } from '@/app/components/types/Beat';
+import { Beat } from '../../../components/types/Beat';
 import Controls from './controls/Controls';
 import { Avatar, Button, Input } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send'; // Import the SendIcon component
 import './CardBeat.css';
-import { handleBuyBeat } from '@/app/components/utils/sendData';
+import { handleBuyBeat } from '../../../components/utils/sendData';
 import { useAccount } from 'wagmi';
 import { Address } from 'viem';
 
