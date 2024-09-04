@@ -14,6 +14,11 @@ export const getCountBeat = async () => {
     return count;
 }
 
+export const getBalance = async (address: Address) => {
+    const balance = await contractRead.read.balanceOf([address]);
+    return Number(balance);
+}
+
 export const getListBeat = async () => {
     const count = await getCountBeat();
     let beatArray: Beat[] = [];

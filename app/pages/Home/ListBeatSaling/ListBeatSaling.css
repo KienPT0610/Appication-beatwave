@@ -16,8 +16,9 @@
 .listBeatSaling .sound_body {
   width: 70%;
   height: 100%;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
+
 
 .listBeatSaling .userSideBar {
   width: 30%;

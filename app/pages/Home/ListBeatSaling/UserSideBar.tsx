@@ -1,6 +1,7 @@
 import React from 'react'
 import './UserSideBar.css'
-import { Avatar } from '@mui/material'
+import { Avatar, Button } from '@mui/material'
+
 
 export const data = [
     { id: 4, name: 'KienPT', album: 'Album 1', followers: '1,000,000,000 Followers' },
@@ -40,7 +41,7 @@ export const UserSideBar = () => {
                                 <span className='artistItem__info__name'>{item.name}</span>
                                 <span className='artistItem__infor__album'>{item.album}</span>
                                 <span className='artistItem__info__followers'>{item.followers}</span>
-                                <button>Follow</button>
+                                <Button variant="contained">Follow</Button>
                             </div>
                         </div>
                     ))

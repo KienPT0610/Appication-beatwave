@@ -22,7 +22,6 @@ export const ListBeatSaling = () => {
         <div className='title'>
           <h2>Recent</h2>
         </div>
-        Soundbody
         <div className="beatList">
           {beats.filter((beat) => !beat.isForSale).map((beat) => (
             <CardBeat key={beat.id} beat={beat} />

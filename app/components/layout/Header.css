@@ -25,7 +25,5 @@ header .icon {
 
 header .account {
   margin-right: 20px;
-  width: 10%;
-  height: auto;
   display: flex;
 } 
