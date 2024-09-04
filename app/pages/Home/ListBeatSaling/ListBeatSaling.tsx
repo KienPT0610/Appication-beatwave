@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react'
 import { UserSideBar } from './UserSideBar'
 import './ListBeatSaling.css'
 import { Pagination } from '@mui/material'
-import { getCountBeat, getListBeat } from '@/app/components/utils/data'
-import { Beat } from '@/app/components/types/Beat'
+import { getCountBeat, getListBeat } from '../../../components/utils/data'
+import { Beat } from '../../../components/types/Beat'
 import CardBeat from './CardBeat'
 
 export const ListBeatSaling = () => {
