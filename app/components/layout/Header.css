@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  /* position: sticky; */
+  /* top: 0; */
+}
+
+header .title {
+  font-size: 2em;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+header .icon {
+  margin-left: 20px;
+  width: 10%;
+  height: auto;
+  display: flex;
+}
+
+header .account {
+  margin-right: 20px;
+  display: flex;
+} 

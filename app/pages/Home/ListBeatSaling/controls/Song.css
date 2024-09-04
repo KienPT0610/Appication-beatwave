@@ -1,0 +1,23 @@
+.song-container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(168, 168, 168);
+}
+
+.song-container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: lowercase;
+  color: rgb(37, 33, 33);
+}
+
+.song-container h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: lowercase;
+  color: rgb(0, 0, 0);
+}

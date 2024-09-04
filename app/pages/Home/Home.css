@@ -1,0 +1,79 @@
+.home {
+  /* background-color: rgb(36, 186, 46);  */
+  height: 100vh;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.home .container {
+  height: 180px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(239, 174, 95), rgb(255, 255, 255));
+}
+
+.home .container .profileHeader {
+  height: 160px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* background-color: rgb(227, 189, 138); */
+}
+
+.home .container .profileHeader .profileHeader-info {
+  height: 140px;
+  width: 140px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.home .container .profileHeader .profileHeader-info .profileRadius {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgb(244, 185, 96);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .container .profileHeader .profileHeader-info .profileRadius h1 {
+  font-size: 5em;
+  color: white;
+}
+
+.home .userInfoBar {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(232, 222, 210);
+}
+
+.home .userInfoBar .profileTab ul {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.home .userInfoBar .profileTab ul li a {
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.home .userInfoBar .profileTab ul li a:hover {
+  background-color: #bcc3d6;
+  border-radius: 5px;
+}
+
+.home .list-beat {
+  box-sizing: border-box;
+}
