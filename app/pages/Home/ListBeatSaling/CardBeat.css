@@ -1,0 +1,59 @@
+.beatInfo {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 10px 5px;
+  padding: 10px;
+  display: flex;
+  background: linear-gradient(
+    to right,
+    rgb(254, 180, 180),
+    rgb(255, 255, 255),
+    rgb(244, 133, 133)
+  );
+}
+
+.beatInfo .avatar {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.beatInfo .controls {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(109, 25, 25); */
+}
+
+.beatInfo .controls .comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px */
+    /* border: 1px solid black; */ 
+}
+
+.beatInfo .comment button {
+    background-color: salmon;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.beatInfo .btn {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.beatInfo .btn button {
+  background-color: salmon;
+  position: inherit;
+}

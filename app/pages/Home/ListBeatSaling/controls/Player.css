@@ -1,0 +1,18 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: inherit;
+  margin: 0;
+}
+
+.player .time-control {
+  display: flex;
+  color: salmon;
+}
+
+.player .time-control .track input {
+  margin: 0 5px;
+}
