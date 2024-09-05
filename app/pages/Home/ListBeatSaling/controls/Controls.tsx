@@ -5,7 +5,7 @@ import Song from "./Song";
 //IMporting DATA
 import data from "./data";
 
-function Controls({ beat }: { beat: any }) {
+function Controls({ beat, page }: { beat: any, page: string }) {
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(beat);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -38,7 +38,10 @@ function Controls({ beat }: { beat: any }) {
   };
   return (
     <div>
-      <Song beat={beat} />
+      {
+        page === "home" &&
+        <Song beat={beat} /> 
+      }
       <Player
         id={beat.id}
         songs={songs}

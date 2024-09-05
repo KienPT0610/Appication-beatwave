@@ -8,7 +8,7 @@ import { About } from "./pages/About/About";
 import { Upload } from "./pages/Upload/Upload";
 import { Header } from "./components/layout/Header";
 import { Manage } from "./pages/Manage/Manage";
-import "./Page.css";
+import "./Page.css"; 
 import { Providers } from "./components/providers/Provider";
 import { getConfig } from './components/utils/wagmi'
 import { cookieToInitialState } from 'wagmi'
@@ -50,3 +50,4 @@ export default function App() {
     </div>
   );
 }
+

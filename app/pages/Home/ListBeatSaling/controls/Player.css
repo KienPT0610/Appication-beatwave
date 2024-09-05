@@ -10,7 +10,7 @@
 
 .player .time-control {
   display: flex;
-  color: salmon;
+  color: rgb(12, 18, 128);
 }
 
 .player .time-control .track input {
