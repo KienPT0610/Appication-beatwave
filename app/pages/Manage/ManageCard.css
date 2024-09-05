@@ -1,0 +1,66 @@
+.card-container {
+  width: auto;
+  border: 1px solid #da3131;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(to right, #eb86e6, #bb7ded, #e356dc, #d6b2f4);
+}
+
+.card-container .card {
+  width: auto;
+  display: flex;
+  margin: 10px;
+  /* border: 1px solid #21813b; */
+}
+
+.card-container .card .card-avatar {
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid #d8e4db; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container .card .card-avatar .card-id {
+  margin: 10px;
+  font-size: 20px;
+  color: #fdfdfd;
+}
+
+.card-container .card .card-body {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  /* border: 1px solid #0d0f0e; */
+}
+
+.card-container .card .card-body .card-title {
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+
+.card-container .card .card-body .card-text {
+    margin: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+.card-container .card .card-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container .card .card-btn button {
+  margin: 10px;
+  background-color: #d952b0;
+  position: inherit;
+}
