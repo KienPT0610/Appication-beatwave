@@ -1,6 +1,6 @@
 import { Address, getContract } from "viem"
 import { contract } from "../abi/abi" 
-import { publicClient } from "./client"
+import { publicClient, walletClient } from "./client"
 import { Beat } from "../types/Beat"
 
 export const contractRead = getContract({

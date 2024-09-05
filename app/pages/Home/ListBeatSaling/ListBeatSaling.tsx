@@ -23,7 +23,7 @@ export const ListBeatSaling = () => {
           <h2>Recent</h2>
         </div>
         <div className="beatList">
-          {beats.filter((beat) => !beat.isForSale).map((beat) => (
+          {beats.filter((beat) => beat.isForSale).map((beat) => (
             <CardBeat key={beat.id} beat={beat} />
           ))}
         </div>

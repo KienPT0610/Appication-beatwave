@@ -1,0 +1,11 @@
+.manage-body {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 20px;
+    /* background : linear-gradient(to right, #cd5252, #75b085, #defc99, #ccb5de); */
+    background-image: url('../../../public//bg-manage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
