@@ -11,6 +11,16 @@ npm run build
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## About app
+Use chain BSCTESTNET:
+
+Address contract:
+```bash
+0xD568e9628dD89AE8F455171E244Ef746B429318b
+```
+
+Use token BW to transfer:
+- You need buy token BW
+
 First, connect with your wallet:
 ![Button connect](./public/btn-connect.png)
 
