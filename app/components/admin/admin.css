@@ -1,0 +1,49 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(17, 25, 40, 0.1);
+  height: 100vh;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+
+    label {
+      align-self: center;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    input {
+      /* background-color: rgba(25, 17, 40, 0.5); */
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-style: 20px;
+      padding: 10px;
+      color: black;
+    }
+
+    .btn-admin {
+      display: flex;
+      gap: 10px;
+
+      button {
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(17, 25, 40, 0.5);
+        width: 100px;
+        padding: 10px;
+
+        &:hover {
+            background-color: rgba(17, 25, 40, 0.7);
+        }
+      }
+    }
+  }
+}

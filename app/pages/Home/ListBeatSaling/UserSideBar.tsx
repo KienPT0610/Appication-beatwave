@@ -5,7 +5,7 @@ import { Avatar, Button } from '@mui/material'
 
 export const data = [
     { id: 4, name: 'KienPT', album: 'Album 1', followers: '1,000,000,000 Followers' },
-    { id: 1, name: 'Son Tung MTP', album: 'Album 99', followers: '10,000,000 Followers' },
+    { id: 1, name: 'Hehe', album: 'Album 99', followers: '10,000,000 Followers' },
     { id: 2, name: 'Jack 5tr', album: 'Album 5', followers: '1 Followers' },
     { id: 3, name: 'Meme', album: 'Album 1', followers: '1 Followers' },
 ]

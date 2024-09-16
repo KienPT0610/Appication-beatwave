@@ -95,6 +95,7 @@ export const ManageCard = ({ beat }: { beat: Beat }) => {
           }
           <Button variant="contained" onClick={handleClickOpenTransfer} >Transfer Owner</Button>
           <Button variant="contained" onClick={handleClickOpenChangeTitle} >Change Title</Button>
+          <Button variant='contained' >Delete</Button>
 
           {/* Sale Dialog */}
           <Dialog open={openSale} onClose={handleCloseSale}>
