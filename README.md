@@ -23,7 +23,7 @@ Contains 4 pages:
 
 ### Page Home:
 This is the page used to view the list of music beats for sale and to exchange and buy and sell music:
-![Button connect](./public/cardBeat.png)
+![Cardbeat](./public/cardBeat.png)
 
 ```bash
 button Buy to buy beat
@@ -35,6 +35,8 @@ Includes a list of beats you uploaded
     - Transfer ownership to another person
     - If it is for sale, it can be removed from sale
     - Change title of beat
+
+![listBeat](./public/listbeat.png)
 
 ### Page Upload:
 You can upload your beats and manage them
