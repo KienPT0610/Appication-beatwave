@@ -1,6 +1,6 @@
 # BEATWAVE APP
 
-Link to test web [Beatwave](appication-beatwave.vercel.app)
+Link to test web [Beatwave](https://appication-beatwave.vercel.app/home)
 
 ## How to run:
 First, run the development local:
