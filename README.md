@@ -31,10 +31,10 @@ button Buy to buy beat
 
 ### Page Manage:
 Includes a list of beats you uploaded
-    - You can post for sale
-    - Transfer ownership to another person
-    - If it is for sale, it can be removed from sale
-    - Change title of beat
+- You can post for sale
+- Transfer ownership to another person
+- If it is for sale, it can be removed from sale
+- Change title of beat
 
 ![listBeat](./public/listbeat.png)
 
