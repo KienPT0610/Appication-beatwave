@@ -39,14 +39,14 @@ export const transferOwner = async (
 //function to delete beat is for sale
 export const deleBeatIsForSale = async (id: number, account: Address) => {
   const { request } = await publicClient.simulateContract({
-      address: contractAddress,
-      abi: contract.abi,
-      functionName: 'deleteBeatForSale',
-      args: [id],
-      account,
-  })
+    address: contractAddress,
+    abi: contract.abi,
+    functionName: "deleteBeatForSale",
+    args: [id],
+    account,
+  });
   const hash = await walletClient.writeContract(request);
-}
+};
 
 //function to up sale
 /*
@@ -55,16 +55,15 @@ id: id of beat
 price: price to up sale
 */
 export const saleBeat = async (id: number, price: number, account: Address) => {
-  const {request} = await publicClient.simulateContract({
+  const { request } = await publicClient.simulateContract({
     address: contractAddress,
     abi: contract.abi,
-    functionName: 'listBeatForSale',
+    functionName: "listBeatForSale",
     args: [id, price],
     account,
-  })
+  });
   const hash = walletClient.writeContract(request);
-}
-
+};
 
 //function to upload beat to ipfs and save to chain
 /*
@@ -72,13 +71,53 @@ args
 cid: cid in IPFS
 title: of Beat
 */
-export const uploadBeat = async (cid: string, title: string, account: Address) => {
-  const {request} = await publicClient.simulateContract({
+export const uploadBeat = async (
+  cid: string,
+  title: string,
+  account: Address
+) => {
+  const { request } = await publicClient.simulateContract({
     address: contractAddress,
     abi: contract.abi,
-    functionName: 'uploadBeat',
+    functionName: "uploadBeat",
     args: [cid, title],
     account,
-  })
+  });
   const hash = walletClient.writeContract(request);
-}
+};
+
+//function mint token bw for other
+export const mint = async (to: Address, amount: number, account: Address) => {
+  const { request } = await publicClient.simulateContract({
+    address: contractAddress,
+    abi: contract.abi,
+    functionName: "mint",
+    args: [to, amount],
+    account,
+  });
+  const hash = walletClient.writeContract(request);
+};
+
+//function burn token bw for other
+export const burn = async (from: Address, amount: number, account: Address) => {
+  const { request } = await publicClient.simulateContract({
+    address: contractAddress,
+    abi: contract.abi,
+    functionName: "burn",
+    args: [from, amount],
+    account,
+  });
+  const hash = walletClient.writeContract(request);
+};
+
+//function transfer token bw for other
+export const transfer = async (to: Address, amount: number, account: Address) => {
+  const { request } = await publicClient.simulateContract({
+    address: contractAddress,
+    abi: contract.abi,
+    functionName: "transfer",
+    args: [to, amount],
+    account,
+  });
+  const hash = walletClient.writeContract(request);
+};

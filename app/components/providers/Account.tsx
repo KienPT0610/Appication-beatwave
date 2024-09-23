@@ -10,7 +10,7 @@ export const Account = () => {
   const [balance, setBalance] = useState(0)
   
   useEffect(() => {
-    console.log('account:', account)
+    // console.log('account:', account)
     if(account.status === 'connected') {
       setConnect(true)
     } else {

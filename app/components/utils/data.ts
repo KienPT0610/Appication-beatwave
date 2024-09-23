@@ -14,6 +14,11 @@ export const getCountBeat = async () => {
     return count;
 }
 
+export const getAdmin = async () => {
+    const admin = await contractRead.read.admin();
+    return admin as Address;
+}
+
 export const getBalance = async (address: Address) => {
     const balance = await contractRead.read.balanceOf([address]);
     return Number(balance);

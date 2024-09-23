@@ -8,6 +8,7 @@ import { About } from "./pages/About/About";
 import { Upload } from "./pages/Upload/Upload";
 import { Header } from "./components/layout/Header";
 import { Manage } from "./pages/Manage/Manage";
+import { Admin } from "./components/admin/Admin";
 import "./Page.css"; 
 import { Providers } from "./components/providers/Provider";
 import { getConfig } from './components/utils/wagmi'
@@ -44,7 +45,8 @@ export default function App() {
             <Route path="/upload" element={<Upload />} />
             <Route path="/manage" element={<Manage />} />
             <Route path="/about" element={<About />} />
-          </Routes>
+            <Route path="/admin" element={<Admin /> } />
+          </Routes> 
         </Router>
       </Providers>
     </div>
