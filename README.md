@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BEATWAVE APP
 
-## Getting Started
+Link to test web [Beatwave](https://appication-beatwave.vercel.app/home)
 
-First, run the development server:
+## How to run:
+First, run the development local:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About app
+Use chain BSCTESTNET:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Address contract:
+```bash
+0xD568e9628dD89AE8F455171E244Ef746B429318b
+```
 
-## Learn More
+Use token BW to transfer:
+- You need buy token BW
 
-To learn more about Next.js, take a look at the following resources:
+First, connect with your wallet:
+![Button connect](./public/btn-connect.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contains 4 pages:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Home](https://appication-beatwave.vercel.app/home) - page Home to buy and view beat.
+- [Manage](https://appication-beatwave.vercel.app/manage) - page manage to manage your beat.
+- [Upload](https://appication-beatwave.vercel.app/upload) - page upload to upload beat to system.
+- [About](https://appication-beatwave.vercel.app/about) - page about.
 
-## Deploy on Vercel
+### Page Home:
+This is the page used to view the list of music beats for sale and to exchange and buy and sell music:
+![Cardbeat](./public/cardBeat.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+button Buy to buy beat
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Page Manage:
+Includes a list of beats you uploaded
+- You can post for sale
+- Transfer ownership to another person
+- If it is for sale, it can be removed from sale
+- Change title of beat
+
+![listBeat](./public/listbeat.png)
+
+### Page Upload:
+You can upload your beats and manage them
+Can only download mp3 files and when the wallet is connected
+
+### Page About:
+about we
